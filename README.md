@@ -2,9 +2,8 @@
 
 Este repositorio contiene el desarrollo de un **sitio web estático** construido con HTML y CSS utilizando **Flexbox** como sistema principal de diseño. El propósito es crear una interfaz atractiva, semántica y responsiva, con navegación lateral fija y una galería temática.
 
-**Autores:** [Tu nombre] y Matías Núñez  
-**Correo de contacto:** tunombre@ejemplo.com
-
+**Autores:** Alodnra Pino y Matías Núñez  
+**Correo de contacto:** alondragonzalez@liceovvh.cl
 ---
 
 ## 🎯 Temática del sitio

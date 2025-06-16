@@ -6,8 +6,6 @@
     --color-fondo: #d8d8d8;         /* Gris Claro */
     --color-texto: #1b1b1b;         /* Negro Suave */
     --color-texto-claro: #f2e5d4;   /* Beige Peludo */
-    --color-extra: #87b157;         /* Verde Pasto */
-    /* color4: Azul brillante */
     --color-tarjeta-fondo: white;
     --sombra-tarjeta: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -65,7 +63,7 @@ body {
 }
 
 .nav a:hover {
-    background-color: var(--color-acento);
+    background-color: var(--color-secundario);
 }
 
 .nav i {
@@ -454,4 +452,26 @@ h2 {
         flex: 1; /* Siguen compartiendo espacio equitativamente (ahora vertical) */
         max-width: none; /* Deshacer el max-width para móvil */
     }
+}
+
+/* 🔽 NUEVO bloque para las tres tarjetas alineadas horizontalmente */
+.bloque-final-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 25px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.bloque-final-flex .tarjeta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px; /* Misma altura visual que las tarjetas de arriba */
+  text-align: center;
+  padding: 25px;
 }
